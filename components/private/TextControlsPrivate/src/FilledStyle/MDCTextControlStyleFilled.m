@@ -142,7 +142,7 @@ static const CGFloat kFilledContainerStyleTopCornerRadius = (CGFloat)4.0;
   CGFloat topRadius = kFilledContainerStyleTopCornerRadius;
   CGFloat bottomRadius = 0;
   CGFloat textFieldWidth = CGRectGetWidth(viewBounds);
-  CGFloat sublayerMinY = 0;
+  CGFloat sublayerMinY = 12;
   CGFloat sublayerMaxY = containerHeight;
 
   CGPoint startingPoint = CGPointMake(topRadius, sublayerMinY);
